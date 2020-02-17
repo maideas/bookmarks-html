@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmarks-HTML",
+  "version": "1.0",
+
+  "description": "Creates an HTML page of all your bookmarks.",
+  "homepage_url": "https://github.com/maideas/bookmarks-html",
+  "icons": {
+    "48": "icons/bookmarks-html-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "bookmarks"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/bookmarks-html-32.png",
+    "default_title": "Bookmarks-HTML"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+
