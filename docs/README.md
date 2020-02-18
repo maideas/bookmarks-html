@@ -1,4 +1,4 @@
-# bookmarks-html
+# Bookmarks HTML Firefox AddOn
 
 Firefox AddOn that creates an HTML page of all your bookmarks.
 
